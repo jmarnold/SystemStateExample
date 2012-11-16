@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Workspaces />
+  <BinaryFolder>bin\debug</BinaryFolder>
+  <NumberOfTestRetries>0</NumberOfTestRetries>
+  <TestFolder>Tests</TestFolder>
+  <FileName>C:\code\blogging\SystemStateExample\src\SystemStateExample.StoryTeller\example.xml</FileName>
+  <TimeoutInSeconds>120</TimeoutInSeconds>
+  <SystemTypeName>SystemStateExample.StoryTeller.SystemStateExampleSystem,SystemStateExample.StoryTeller</SystemTypeName>
+  <ConfigurationFileName>SystemStateExample.StoryTeller.dll.config</ConfigurationFileName>
+  <Name>SystemStateExample</Name>
+</Project>

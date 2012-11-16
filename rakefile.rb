@@ -119,3 +119,9 @@ def self.fubu(args)
   fubu = Platform.runtime("src/fubu/bin/#{COMPILE_TARGET}/fubu.exe")
   sh "#{fubu} #{args}"
 end
+
+desc "Runs the StoryTeller UI"
+task :run_st => [:restore_if_missing] do
+  st = Platform.runtime(Nuget.tool("Storyteller2", "StorytellerUI.exe"))
+  sh st 
+end

@@ -24,3 +24,6 @@ src/*/repositories.config
 .bottle-alias
 results
 *.DotSettings.user
+bottles.cmd
+storyteller.cmd
+run_st.cmd

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Test name="Verify confirmation email" lifecycle="Acceptance">
+  <Model>
+    <TheSubscriptionPlans isStep="True">
+      <Rows>
+        <row isStep="True" Name="Plan 1" />
+        <row isStep="True" Name="Plan 2" />
+      </Rows>
+    </TheSubscriptionPlans>
+    <StubEmailGateway isStep="True" />
+  </Model>
+  <Registration>
+    <EnterName isStep="True" Name="Josh" />
+    <EnterEmailAddress isStep="True" EmailAddress="test@test.com" />
+    <EnterPassword isStep="True" Password="1234" />
+    <ClickTheSubmitButton isStep="True" />
+    <VerifyEmail isStep="True" />
+  </Registration>
+</Test>
