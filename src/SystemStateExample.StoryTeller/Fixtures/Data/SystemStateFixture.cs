@@ -7,9 +7,9 @@ using StructureMap;
 
 namespace SystemStateExample.StoryTeller.Fixtures.Data
 {
-    public class ModelFixture : Fixture
+    public class SystemStateFixture : Fixture
     {
-        public ModelFixture()
+        public SystemStateFixture()
         {
             Title = "The system state is";
         }

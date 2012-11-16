@@ -120,7 +120,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fixtures\Data\ModelFixture.cs" />
+    <Compile Include="Fixtures\Data\SystemStateFixture.cs" />
     <Compile Include="Fixtures\Data\SmtpServerController.cs" />
     <Compile Include="Fixtures\Register\RegistrationFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

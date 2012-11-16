@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Test name="Verify available subscription plans" lifecycle="Acceptance">
-  <Model>
+  <SystemState>
     <TheSubscriptionPlans isStep="True">
       <Rows>
         <row isStep="True" Name="Plan 1" />
         <row isStep="True" Name="Plan 2" />
       </Rows>
     </TheSubscriptionPlans>
-  </Model>
+  </SystemState>
   <Registration>
     <VerifySubscriptionPlans isStep="True">
       <rows>

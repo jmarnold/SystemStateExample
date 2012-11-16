@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Test name="Verify confirmation email" lifecycle="Acceptance">
-  <Model>
+  <SystemState>
     <TheSubscriptionPlans isStep="True">
       <Rows>
         <row isStep="True" Name="Plan 1" />
@@ -8,7 +8,7 @@
       </Rows>
     </TheSubscriptionPlans>
     <StubEmailGateway isStep="True" />
-  </Model>
+  </SystemState>
   <Registration>
     <EnterName isStep="True" Name="Josh" />
     <EnterEmailAddress isStep="True" EmailAddress="test@test.com" />
